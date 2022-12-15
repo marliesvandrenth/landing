@@ -1,0 +1,28 @@
+footer {
+  text-align: center;
+  padding: 60px;
+  background-color: rgb(49, 34, 34);
+}
+
+.feather-btm {
+  color: rgb(255, 232, 232);
+  size: 10px;
+  height: 40px;
+  width: 40px;
+  transition: all 0.35s ease;
+}
+
+.feather-btm :hover {
+  color: rgba(212, 71, 5, 0.9);
+  cursor: pointer;
+}
+
+footer p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  opacity: 0.5;
+  color: rgb(255, 232, 232);
+}

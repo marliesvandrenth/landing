@@ -1,0 +1,66 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display:wght@600;800;900&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Link css pages */
+@import url('components/banner.css');
+@import url('components/card.css');
+@import url('components/footer.css');
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(255, 242, 242);
+  text-align: center;
+}
+
+h1,  h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: lighter;
+}
+
+/* Custom design below! */
+
+h1 {
+  display: block;
+  font-size: 80px;
+  font-weight: 900;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  font-size: 50px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 900;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.logo svg {
+  size: 20px;
+}

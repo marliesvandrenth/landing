@@ -1,0 +1,59 @@
+.banner {
+  background-image: linear-gradient(rgba(100, 100, 100, .2), rgba(100, 100, 100, .2)), url('../../images/360-7wondercomposite-superJumbo.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 160px 0;
+  background-color: linear-gradient;
+  margin: 0;
+}
+
+.banner .logo {
+  color: rgb(49, 34, 34);
+  position: fixed;
+  left: 20px;
+  top: 2px;
+  z-index: 2;
+  letter-spacing: -6px;
+}
+
+.banner .feather-top {
+  color: rgb(49, 34, 34)
+}
+
+.banner .container {
+  padding: 3em 5em 0;
+  align-items: center;
+  text-align: center;
+}
+
+.banner p {
+  margin-top: 1em;
+  margin-bottom: 4em;
+  letter-spacing: 2px;
+  color: #fddeb6;
+}
+
+.banner h1,
+.banner p {
+ text-shadow: 4px 4px 8px rgba(0, 0, 0, .4);
+}
+
+.banner h1 {
+  color: rgb(255, 232, 232);
+}
+
+.banner .btn-trvl {
+  text-decoration: none;
+  border-radius: 2px;
+  background-color: rgba(49, 34, 34, 0.8);
+  padding: 10px 15px;
+  margin-top: 20px;
+  color: #FFF;
+  transition: all 0.35s ease-out;
+  letter-spacing: 1px;
+}
+
+.banner .btn-trvl:hover {
+  background: rgba(212, 71, 5, 0.8);
+  color: rgb(255, 232, 232);
+}
